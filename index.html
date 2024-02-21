@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RedDuneAdventures</title>
+
+    <!-- Bootstrap Stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header position-absolute start-0 top-0 end-0">
+          <nav class="navbar navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"
+                ><i class="bi bi-compass"></i>
+                Red Dunes Camp
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar"
+                aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="offcanvas offcanvas-end text-bg-dark"
+                tabindex="-1"
+                id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                    <i class="bi bi-compass"></i>
+                Red Dunes Camp
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./index.html"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./public/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./public/accomodation.html">Accomodation</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./public/activities.html">Activities</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./public/booknow.html">Book Now</a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__overlay"></div>
+      <video
+        playsinline="playsinline"
+        autoplay="autoplay"
+        muted="muted"
+        loop="loop"
+        loading="lazy"
+        class="hero__video"
+      >
+        <source src="./img/mountains_vid.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero__content h-100 container-custom position-relative">
+        <div class="d-flex h-100 align-items-center hero__content-width">
+          <div class="text-white">
+            <h1 class="hero__heading fw-bold mb-4">
+              Adventure Awaits Around the Corner.
+            </h1>
+            <p class="lead mb-4">
+              Come Explore the Ancient Land of the Bedouins
+            </p>
+            <a href="#" class="mt-2 btn btn-lg btn-outline-light" role="button"
+              >Book Now</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <a href="#scroll-down" class="hero__scroll-btn">
+        Explore <i class="bi bi-arrow-down-short"></i>
+      </a>
+    </section>
+
+    <a id="scroll-down"></a>
+
+    <!-- Welcome -->
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./img/tent.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Ahlan Wa Sahlan!<br />Welcome!</h1>
+            <p class="lead"> <span class="fw-bold">Experience the magic of Wadi Rum in a Bedouin-style desert camp. Our camp is located in the heart of the desert, surrounded by towering sandstone cliffs and stunning natural beauty.</span> You'll sleep in a traditional Bedouin tent, enjoy delicious meals cooked over an open fire, and stargaze under the clear desert sky. We offer a variety of activities, including jeep tours, camel rides, and hiking. So come and explore Wadi Rum with us, and create memories that will last a lifetime.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Services -->
+    <div class="container px-4 py-5" id="featured-3">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+             <img src="./img/camp.jpg" alt="desert camp" height="500">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Breathtaking Views</h3>
+            <p>Explore the stunning desert landscape of Wadi Rum, Jordan. Hike among towering sandstone cliffs, climb ancient rock formations, and stargaze under the clear desert sky.</p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <img src="./img/jeep.png" alt="desert camp" height="500">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Off Road Adventures</h3>
+            <p>Go jeeping, hiking, or sandboarding through the stunning desert landscape. Camp under the stars and learn about Bedouin culture.</p>
+    
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <img src="./img/fire.png" alt="desert camp" height="500">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Legendary Hospitality</h3>
+            <p>Stay in a traditional Bedouin camp that offers world class hospitality. Enjoy delicious food, friendly service, and stargazing under the clear desert sky.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonials -->
+      <section id="testimonial">
+        <div class="my-5">
+          <div class="p-5 text-center bg-body-tertiary">
+            <div class="container py-5">
+              <h2 class="text-body-emphasis">
+                "Wadi Rum was an incredible experience. The scenery was breathtaking, the activities were fun and challenging, and the people were incredibly friendly and welcoming. I would highly recommend Wadi Rum to anyone looking for an unforgettable adventure."
+              </h2>
+              <img
+                src="./img/testimonial.jpg"
+                alt="Alan from the UK"
+                class="profile-img mt-5 mb-2"
+              />
+              <p class="col-lg-8 mx-auto lead">Alan, UK</p>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-3 col-sm-12 my-2">
+                    <img
+                      src="./img/tripadvisor.png"
+                      alt="tech chrunch logo"
+                      class="comp-img"
+                    />
+                  </div>
+                  <div class="col-lg-3 col-sm-12 my-2">
+                    <img
+                      src="./img/expedia.png"
+                      alt="tech chrunch logo"
+                      class="comp-img"
+                    />
+                  </div>
+                  <div class="col-lg-3 col-sm-12 my-2">
+                    <img
+                      src="./img/travelleisure.png"
+                      alt="tech chrunch logo"
+                      class="comp-img"
+                    />
+                  </div>
+                  <div class="col-lg-3 col-sm-12 my-2">
+                    <img
+                      src="./img/booking.png"
+                      alt="tech chrunch logo"
+                      class="comp-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">© 2023 Red Dunes Camp</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <i class="bi bi-compass" style="font-size: 30px;"><use xlink:href="#bootstrap"></use></i>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul>
+        </footer>
+      </div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
